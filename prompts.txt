@@ -1,0 +1,200 @@
+"natural_language_prompt": "Create a strategy for ETH/USDC:USDC on the 1-hour timeframe. Go long when the 14-period RSI is below 30 and go short when it is above 70. Use a 3% stop loss and a 6% take profit for all trades."
+
+"natural_language_prompt": "Create a simple moving average crossover strategy using 50 and 200 period SMAs. Buy when the 50 SMA crosses above the 200 SMA, and sell when it crosses below. Use a stop loss of 2% and take profit of 5%."
+
+"natural_language_prompt": "Develop a long-only strategy where a buy is triggered when the MACD line (12, 26, 9) crosses above the signal line, but only if the 14-period RSI is also above 50. Use a 4% stop loss and a minimal ROI of 2% after 45 minutes and 5% after 90 minutes."
+
+"natural_language_prompt": "I want to trade a basket of pairs: BTC/USDC:USDC, ETH/USDC:USDC, and SOL/USDC:USDC. Go long when the 20-period CCI crosses above 100. Each trade should use exactly 5% of a total available capital of 20,000 USDC. The stop loss is 2.5% and take profit is 4%."
+
+"natural_language_prompt": "I want a strategy that shorts ADA/USDC:USDC when the price on a 4-hour chart crosses below the 100-period SMA, but only if the 20-period SMA is already below the 50-period SMA. Take profit at 5%. Use a stop loss of 2%. The stake amount is fixed at 150 USDC from a 2500 USDC capital base."
+
+"natural_language_prompt": "Create a strategy for ETH/USDC:USDC on the 1-hour timeframe. Go long when the 14-period RSI is below 30 and go short when it is above 70. Use a 3% stop loss and a 6% take profit for all trades. The strategy will manage a portfolio of 5000 USDC and should use a fixed position size of 200 USDC for every trade."
+
+"natural_language_prompt": "Create a mean reversion strategy for BTC/USDC:USDC on a 15-minute timeframe. Enter a long position after 5 consecutive bearish candles. Set the take profit at 3% from the entry price and place the stop loss just below the lowest low of the previous 5 candles. The position size should be calculated to risk 1% of the starting $1000 capital per trade."
+
+"natural_language_prompt": "For the SOL/USDC:USDC pair on a 1-hour chart, design a strategy to go long on the breakout of a bullish engulfing bar and go short on the breakdown of a bearish engulfing bar. The take profit target is 3% from the entry. The stop loss should be at the low of the engulfing bar for a long and at the high for a short. Risk 1% of a $500 capital base on each trade."
+
+"natural_language_prompt": "Design an opening range breakout strategy for ETH/USDC:USDC on the 30-minute timeframe, focusing on the US market opening. Identify the high and low of the first 30-minute candle of the session. Go long if the price closes above the high, or go short if it closes below the low. Use a fixed 3% take profit and a 3% stop loss. Each trade size should be a fixed $500."
+
+"natural_language_prompt": "On the AVAX/USDC:USDC 5-minute chart, enter a short position after 7 consecutive bullish candles. The take profit is 2% from entry, and the stop loss must be placed just above the highest high of the previous 7 candles. Use a fixed trade size of $250."
+
+"natural_language_prompt": "Build a long-only DEMA crossover strategy for LINK/USDC:USDC on the 30-minute chart. Use a 9-period DEMA and a 21-period DEMA. Go long when the 9-DEMA crosses above the 21-DEMA. Use a 1.5% stop loss and a 3:1 risk-to-reward ratio for the take profit. The entire 2000 USDC capital should be used for each trade."
+
+"natural_language_prompt": "Create a long-only strategy for LINK/USDC:USDC that uses the McGinley Dynamic indicator with a 14-period length. Buy when the price closes above the McGinley line and the line is clearly trending upwards. The exit is a close back below the line. Use a 4.8% stop loss. The stake is 8% of a 9,000 USDC portfolio."
+
+"natural_language_prompt": "On the LINK/USDC:USDC 4-hour chart, go short on a bearish engulfing bar, but only if it forms at a known resistance level. The take profit is 5%, and the stop loss should be placed 0.5% above the high of the engulfing candle. Use a fixed trade size of $600."
+
+"natural_language_prompt": "For SOL/USDC:USDC on a 15-minute chart, go short on a bearish engulfing bar. The take profit is 3% and the stop loss is at the bar's high. Use a fixed trade size of $800."
+
+"natural_language_prompt": "Develop a short-only mean reversion strategy for LTC/USDC:USDC. When the price on the 4-hour chart closes 2.5 standard deviations above the 20-period SMA, enter a short position. The take profit is the 20-period SMA. The stop loss is a fixed 2%. Use a 300 USDC stake from a 5000 USDC account."
+
+"natural_language_prompt": "Generate a short-only trend-following strategy for DOT/USDC:USDC. On the 4-hour chart, enter short if Parabolic SAR flips to be above the price. Exit when it flips back below. This entry is only valid if the 50-period EMA is sloping downwards. Fixed stop loss of 4%. Use a 250 USDC stake with a 5000 USDC capital."
+
+"natural_language_prompt": "Create a long-only strategy for ARB/USDC:USDC based on the Chaikin Money Flow (CMF) indicator with a 20-period length. Enter a long position when the CMF crosses above the zero line. Use a 4% stop loss and a 7% take profit. The capital is 4,000 USDC, and the stake amount should be 150 USDC."
+
+"natural_language_prompt": "Generate a short-only Ichimoku Cloud strategy for ETH/USDC:USDC on the 4-hour chart. Enter a short when the price is below the Kumo, the Tenkan-sen crosses below the Kijun-sen, and the price is below the Kijun-sen. Use a 3.5% stop loss and a 6% take profit. The stake amount is fixed at 750 USDC from a 25,000 USDC capital base."
+
+"natural_language_prompt": "Generate a long-only strategy for TIA/USDC:USDC that buys on pullbacks in an uptrend. The uptrend is defined by the price being above the 200-period EMA on the 4-hour chart. The entry is a buy when the Stochastic RSI (14, 14, 3, 3) K-line crosses up from below 20. The take profit is 8%. The stop loss is 3.5%. The capital is 6,500 USDC, and the stake per trade is 300 USDC."
+
+"natural_language_prompt": "I want a strategy that shorts ADA/USDC:USDC when the price on a 4-hour chart crosses below the 100-period SMA, but only if the 20-period SMA is already below the 50-period SMA. Take profit at 5%. Use a stop loss of 2%. The stake amount is fixed at 150 USDC from a 2500 USDC capital base."
+
+"natural_language_prompt": "Create a short-only strategy for BNB/USDC:USDC on the 15-minute timeframe using a 20-period WMA. Enter a short position if the price closes below the WMA. Exit when the price closes back above it. Use a fixed 2% stop loss. The capital is 3000 USDC, divided equally among a maximum of 6 open trades."
+
+"natural_language_prompt": "I need a short-only strategy for DOGE/USDC:USDC that shorts when Williams %R (14-period) enters the overbought zone (above -20). Take profit when it crosses below -80. Use a 3% fixed stop loss. Operate with a 4000 USDC account, using a fixed stake of 100 USDC per trade."
+
+"natural_language_prompt": "I need an opening range breakout strategy for SOL/USDC:USDC on the 1-hour timeframe for the London open. Mark the high and low of the first 1-hour candle of the session. Go long on a breakout above the high and short on a breakdown below the low. Set a 2.5% take profit and place the stop loss at the midpoint of the opening range candle. Use a fixed $750 trade size."
+
+"natural_language_prompt": "On the XRP/USDC:USDC 30-minute timeframe, go long on a bullish engulfing bar and short on a bearish engulfing bar. Use a fixed 2.5% take profit from the entry point. The stop loss is placed at the high or low of the engulfing bar. The position size is a fixed $300 per trade."
+
+"natural_language_prompt": "For ADA/USDC:USDC on a 1-hour timeframe, enter a short position after 5 consecutive green candles. Set the take profit at 2.5% from entry and the stop loss just above the highest high of the 5 candles. Use a fixed trade size of $400."
+
+"natural_language_prompt": "On the DOT/USDC:USDC 30-minute chart, enter a long position on a bullish engulfing pattern. The take profit is 3% and the stop loss is at the low of the engulfing bar. The position size should be a fixed $550 per trade."
+
+"natural_language_prompt": "I need a London session opening range breakout for LTC/USDC:USDC on the 30-minute chart. Identify the range of the first 30-minute candle. Go long on a close above and short on a close below. Use a 2.2% take profit and a 2.2% stop loss. The trade size is a fixed $650."
+
+"natural_language_prompt": "I need a London session opening range breakout for AVAX/USDC:USDC on the 30-minute chart. Identify the range of the first 30-minute candle. Go long on a close above and short on a close below. Use a 3% take profit and a 3% stop loss. The trade size is a fixed $700."
+
+"natural_language_prompt": "I need a London opening range breakout strategy for ETH/USDC:USDC on a 5-minute chart. Use the range of the first 5-minute candle. Long on a close above, short on a close below. Use a 1.2% take profit and stop loss. The trade size is a fixed $1500."
+
+"natural_language_prompt": "For SOL/USDC:USDC on a 5-minute timeframe, go long after 4 strong bearish candles. Set a 1.5% take profit and a stop loss below the low of the 4-candle sequence. Position size should risk 1% of a $100 capital."
+
+"natural_language_prompt": "Develop a strategy for BNB/USDC:USDC on a 1-hour chart. Go long on a bullish engulfing bar and short on a bearish one. Use a 3.3% take profit from entry. The stop loss is at the high/low of the respective bar. The trade size is a fixed $900."
+
+"natural_language_prompt": "For DOGE/USDC:USDC on a 15-minute timeframe, enter a short position after 7 consecutive green candles. Set a take profit at 2.5% and a stop loss above the high of the 7-candle sequence. Use a fixed trade size of $300."
+
+"natural_language_prompt": "On the LINK/USDC:USDC 30-minute chart, go long on a bullish engulfing candle only if it occurs after a pullback to the 50 EMA. Set a 4% take profit and a stop loss at the low of the engulfing bar. Risk 1% of a $2000 capital base."
+
+"natural_language_prompt": "For ETH/USDC:USDC on a 15-minute timeframe, implement a US session opening range breakout. Use the first 15-minute candle. Long on a break above, short on a break below. Take profit is 2.5%, stop loss is 2.5%. The trade size is a fixed $1800."
+
+"natural_language_prompt": "Implement a US session opening range breakout for LINK/USDC:USDC on a 15-minute chart. Use the first 15-minute candle. Long on a close above, short on a close below. Use a 3% take profit and stop loss. The trade size is a fixed $750."
+
+"natural_language_prompt": "For LINK/USDC:USDC on a 1-hour timeframe, enter a long position after 7 consecutive bearish candles. Set a 4% take profit and a stop loss 1 ATR below the entry. Risk 1% of a $3500 capital base."
+
+"natural_language_prompt": "For SOL/USDC:USDC, implement a US session opening range breakout on a 5-minute chart. Use the first 5-minute candle. Go long on a close above the high, short on a close below the low. Use a 1.2% take profit and 1.2% stop loss. Trade size risks 1% of a $100 capital."
+
+"natural_language_prompt": "On the ADA/USDC:USDC 15-minute chart, enter a short position after 5 consecutive green candles. Set a take profit at 2.2% and a stop loss above the 5-candle high. Use a fixed trade size of $350."
+
+"natural_language_prompt": "On the ETH/USDC:USDC 1-hour chart, enter a short position after 5 consecutive green candles. Set a take profit at 4% and a stop loss above the 5-candle high. Risk 1% of a $4500 capital."
+
+"natural_language_prompt": "For AVAX/USDC:USDC on a 30-minute timeframe, go long after 4 strong consecutive down candles. Set a take profit at 3.5% and a stop loss 1.5 ATR (14) below the entry. The position size should risk 1% of a $3000 capital."
+
+"natural_language_prompt": "Create a strategy for LINK/USDC:USDC on a 1-hour timeframe. Go short on a bearish engulfing bar, confirmed by a bearish MACD crossover. Take profit at 4.5% and place the stop loss at the bar's high. Use a fixed trade size of $900."
+
+"natural_language_prompt": "On the ETH/USDC:USDC 15-minute chart, enter a long position after 6 consecutive red candles. Set a 2% take profit and a stop loss below the recent swing low. The position size should risk 1% of the starting $100 capital."
+
+"natural_language_prompt": "For ETH/USDC:USDC on a 15-minute chart, go long after 5 down candles. Take profit is 0.5% from entry. The stop loss is below the low of the 5-candle sequence. Position size should risk 2% of a $100 capital per trade."
+
+"natural_language_prompt": "Design a strategy for DOT/USDC:USDC on a 1-hour chart. Go long on a bullish engulfing bar and short on a bearish engulfing bar. The take profit is 4%, and the stop loss is at the high/low of the bar. Risk 1% of an $1800 capital base per trade."
+
+"natural_language_prompt": "For UNI/USDC:USDC on a 1-hour timeframe, go long after 5 consecutive bearish candles. Set a 4.5% take profit and a stop loss below the 5-candle low. The trade size should be a fixed $850."
+
+"natural_language_prompt": "On the SOL/USDC:USDC 5-minute chart, enter a short position on a bearish engulfing bar. Set a take profit at 1.5% and the stop loss at the high of the bar. Position size should risk 1% of a $100 capital."
+
+"natural_language_prompt": "Create a strategy for AAVE/USDC:USDC on the 1-hour chart. Go long on a bullish engulfing bar and short on a bearish engulfing bar. Set a take profit at 4.2% and a stop loss at the bar's high/low. Use a fixed trade size of $950."
+
+"natural_language_prompt": "For ETH/USDC:USDC on a 30-minute timeframe, go long after 5 down candles. The take profit is 3% from entry, and the stop loss is below the 5-candle low. The trade size is a fixed $3000."
+
+"natural_language_prompt": "For XLM/USDC:USDC on a 1-hour timeframe, enter a long position after 7 consecutive bearish candles. Set a 4.5% take profit and a stop loss 1.5 ATR below the entry. Risk 1% of a $3500 capital base."
+
+"natural_language_prompt": "For ETH/USDC:USDC on a 3-minute chart, go long after 10 down candles. Take profit is 0.9% from entry. The stop loss is below the low of the 10-candle sequence. Position size should risk 1% of a $100 capital per trade."
+
+"natural_language_prompt": "Develop a trading strategy for SOL/USDC:USDC on the 3-hour timeframe. Only take long positions when the 14-period RSI drops below 30 and then crosses back above it, confirming a rebound. Only take short positions when the RSI rises above 70 and then crosses back below it. Use a 1.5% stop loss and a 3% take profit for all trades, and avoid opening new trades if price volatility in the past 10 candles exceeds 2%."
+
+"natural_language_prompt": "Create a moving average crossover strategy using 50 and 200 period SMAs. Only buy when the 50 SMA crosses above the 200 SMA and the price has closed above both averages for at least three consecutive candles, confirming an uptrend. Only sell when the 50 SMA crosses below the 200 SMA and the price has closed below both averages for at least three consecutive candles, confirming a downtrend. Use a 1% stop loss and a 2.5% take profit, and avoid taking new positions if recent volatility exceeds 2% over the last 10 candles."
+
+
+"natural_language_prompt": "Develop a long-only strategy for SOL/USDC:USDC on the 3-hour timeframe. Enter a buy only when the MACD line (12, 26, 9) crosses above the signal line and both lines are below zero, indicating a potential trend reversal. Confirm the entry only if the 14-period RSI has recently crossed above 50 and price is above the 50-period SMA. Use a 1.5% stop loss and target a 2% take profit after 90 minutes, closing trades early if momentum weakens or volatility exceeds 2% over the last 10 candles."
+
+"natural_language_prompt": "I want to trade a basket of pairs: SOL/USDC:USDC, ETH/USDC:USDC, and ADA/USDC:USDC. Go long when the 10-period CCI crosses above 100. Each trade should use exactly 10% of a total available capital of 20,000 USDC. The stop loss is 1.5% and take profit is 3%."
+
+"natural_language_prompt": "Please make a strategy that shorts ETH/USDC:USDC when the price on a 3-hour chart crosses below the 70-period SMA, but only if the 10-period SMA is already below the 60-period SMA. Take profit at 3%. Use a stop loss of 3%. The stake amount is fixed at 1500 USDC from a 2500 USDC capital base."
+
+"natural_language_prompt": "Code a strategy for ETH/USDC:USDC on the 3-hour timeframe. Go long when the 15-period RSI is below 40 and go short when it is above 80. The strategy will manage a portfolio of 5000 USDC and should use a fixed position size of 200 USDC for every trade. Use a 2.5% stop loss and a 5% take profit for all trades."
+
+"natural_language_prompt": "Give me a mean reversion strategy for SOL/USDC:USDC on a 30-minute timeframe. The position size should be calculated to risk 10% of the starting $1000 capital per trade. Set the take profit at 5% from the entry price and place the stop loss just below the lowest low of the previous 7 candles. Enter a long position after 4 consecutive bearish candles."
+
+"natural_language_prompt": "For the BTC/USDC:USDC pair on a 2-hour chart, help me to design a strategy to go long on the breakout of a bullish engulfing bar and go short on the breakdown of a bearish engulfing bar. The stop loss should be at the low of the engulfing bar for a long and at the high for a short. Risk 1.5% of a $1500 capital base on each trade. The take profit target is 3% from the entry. "
+
+"natural_language_prompt": "Design an opening range breakout strategy for BTC/USDC:USDC on the 60-minute timeframe, focusing on the US market opening. Identify the high and low of the first 15-minute candle of the session. Go long if the price closes above the high, or go short if it closes below the low. The take profit target is 3% from the entry. Each trade is fixed at $1000."
+
+"natural_language_prompt": "Enter a short position after 7 consecutive bullish candles on the ADA/USDC:USDC 15-minute chart. Use a fixed trade size of $250. The take profit is 3% from entry, and the stop loss must be placed just above the highest high of the previous 5 candles."
+
+"natural_language_prompt": "Please make a long-only DEMA crossover strategy for AVAX/USDC:USDC on the 60-minute chart. Go long when the 10-DEMA crosses above the 20-DEMA. Use a 1% stop loss and a 4:1 risk-to-reward ratio for the take profit."
+
+"natural_language_prompt": "Create a long-only strategy for DOT/USDC:USDC. Buy when the price closes above the McGinley line and the line is clearly trending upwards. The exit is a close back below the line, with a 10-period length. Use a 4.8% stop loss. The stake is 7.5% of a 9,000 USDC portfolio."
+
+"natural_language_prompt": "Use the LINK/USDC:USDC 4-hour chart. Use a fixed trade size of $600. Go short on a bearish engulfing bar if it is at a known resistance level. The take profit is 4%, and the stop loss should be placed 1.5% above the high of the engulfing candle."
+
+"natural_language_prompt": "Trade BTC/USDC:USDC on a 30-minute chart, go short on a bearish engulfing bar. The take profit is 4% and the stop loss is at the bar's high. Use a fixed trade size of $1800."
+
+"natural_language_prompt": "Give me a long-only mean reversion strategy for LTC/USDC:USDC. When the price on the 2-hour chart closes 2.5 standard deviations below the 10-period SMA, enter a long position. The take profit is the 15-period SMA. The stop loss is a fixed 1.5%. Use a 300 USDC stake from a 5000 USDC account."
+
+"natural_language_prompt": "Generate a trend-following strategy for DOT/USDC:USDC (short only). Enter short if Parabolic SAR on the 4-hour chart flips to be above the price. Exit when it flips back below. Only do this if the 50-period EMA is on a downwards trajectory. Stop loss = 3%. I want a 250 USDC stake with a 5000 USDC capital."
+
+"natural_language_prompt": "Give me a short-only strategy for ETH/USDC:USDC using the Chaikin Money Flow (CMF) indicator with a 15-period length, entering a short position when the CMF crosses below the zero line. The capital is 5,000 USDC, and the stake amount should be 350 USDC. Use a 4.5% stop loss and a 6% take profit. "
+
+"natural_language_prompt": "I need long-only Ichimoku Cloud strategy for ETH/USDC:USDC on the 4-hour chart. I need you to open a long when the Tenkan-sen crosses above the Kijun-sen, the price is above the Kumo, and the price is above the Kijun-sen. Use a 4.5% stop loss and a 6% take profit. The stake amount is fixed at 450 USDC from a 12,000 USDC capital base."
+
+"natural_language_prompt": "Write a short-only strategy for ETH/USDC:USDC that buys on pullbacks in an uptrend (note that here uptrend is defined by the price being above the 100-period EMA on the 2-hour chart). Buy only when the Stochastic RSI (14, 14, 3, 3) K-line crosses up from below 25. The capital is 7,500 USDC, and the stake per trade is 400 USDC. The take profit is 5%. The stop loss is 2.5%."
+
+"natural_language_prompt": "I want a strategy that longs DOGE/USDC:USDC when the price on a 3-hour chart crosses above the 100-period SMA, but only if the 10-period SMA is already above the 30-period SMA. The stake amount is fixed at 1050 USDC from a 10500 USDC capital base. Take profit at 4%. Use a stop loss of 1.5%."
+
+"natural_language_prompt": "Make a long-only strategy for BTC/USDC:USDC on the 30-minute timeframe using a 40-period WMA. Enter a long position only when the price closes above the WMA. Exit when the price closes back below it. The capital is 5000 USDC, divided equally among a maximum of 5 open trades. Use a fixed 2.5% stop loss. "
+
+"natural_language_prompt": "Give me a long-only strategy for DOGE/USDC:USDC.  Operate with a 5000 USDC account, using a fixed stake of 500 USDC per trade. Go long when Williams %R (15-period) enters the overbought zone (above -20). Then I want to take profit after it crosses below -80. Use a 2.5% fixed stop loss."
+
+"natural_language_prompt": "I need a London open opening range breakout strategy for AVAX/USDC:USDC on the 60-min timeframe. Mark the high and low of the first candle of the session. Place the stop loss at the midpoint of the opening range candle. Go  short on a breakdown below the low and long on a breakout above the high. Use a fixed $1750 trade size. Set a 3% take profit."
+
+"natural_language_prompt": "On the ADA/USDC:USDC 15-minute timeframe, go short on a bearish engulfing bar, long on a bullish engulfing bar. The stop loss is placed at the high or low of the engulfing bar. We need a fixed 3.5% take profit from the entry point. Your position size is fixed at $1300 per trade."
+
+"natural_language_prompt": "For XRP/USDC:USDC on a 2-hour timeframe, enter a long position after 10 consecutive red candles.  Set the stop loss right above the highest high of the 5 candles. Set the take profit at 3.5% from entry. Use a fixed trade size of $700."
+
+"natural_language_prompt": "Use the XRP/USDC:USDC 15-minute chart, take a fixed $500 position when you see a bullish engulfing pattern, enter a long position with a take profit of 3% and the stop loss is at the low point of the engulfing bar."
+
+"natural_language_prompt": "Give me a London session opening range breakout for BTC/USDC:USDC on the 15-minute chart. The trade size is a fixed $1250. Note the range of the first 30-minute candle. Go long if we close above and short if we close below. Use a 2.2% take profit and a 2.2% stop loss."
+
+"natural_language_prompt": "For LTC/USDC:USDC, go long after 5 strong bearish candles on a 10-minute timeframe. Position size should risk 1% of a $100 capital. Set a 2.5% take profit and a stop loss below the low of the 5-candle sequence."
+
+"natural_language_prompt": "Develop a strategy for BTC/USDC:USDC on a 2-hour chart. The trade size is a fixed $1300. Use a 3% take profit from entry. The stop loss is at the high/low of the respective bar. Go long on a bullish engulfing bar and short on a bearish one. "
+
+"natural_language_prompt": "For BNB/USDC:USDC on a 30-minute timeframe, enter a long position with a a fixed trade size of $300 after 5 consecutive red candles. Set a take profit at 1.5% and a stop loss above the high of the 5-candle sequence."
+
+"natural_language_prompt": "I need you to write a $700 London session opening range breakout for ADA/USDC:USDC on the 15-minute chart with a 3% take profit and a 3% stop loss. Using the range of the first 15-minute candle we have to go long on a close above and short on a close below."
+
+"natural_language_prompt": "On the AVAX/USDC:USDC 60-minute chart, go long on a bullish engulfing candle only if it occurs after a pullback to the 40 EMA. Risk 1% of a $1500 capital base. Set a 3% take profit and a stop loss at the low of the engulfing bar."
+
+"natural_language_prompt": "For BNB/USDC:USDC on a 60-minute timeframe, implement a London session opening range breakout. The trade size is a fixed $1500. Use the first 30-minute candle. Short on a break below, long on a break above. Take profit is 1.5%, stop loss is 1.5%."
+
+"natural_language_prompt": "Implement a US session opening range breakout for LTC/USDC:USDC on a 15-minute chart. The trade size is a fixed $1750. Use the first 15-minute candle. Long on a close above, short on a close below. Use a 3% take profit and stop loss."
+
+"natural_language_prompt": "For BTC/USDC:USDC on a 2-hour timeframe, enter a short position after 10 consecutive bullish candles. Risk 1% of a $3500 capital base. Set a 5% take profit and a stop loss 1 ATR below the entry."
+
+"natural_language_prompt": "For LINK/USDC:USDC, implement a London session opening range breakout on a 15-minute chart.  Use a 1.5% take profit and 1.5% stop loss. Trade size risks 1% of a $2100 capital. Use the first 15-minute candle. Go short on a close below the high, otherwise go long."
+
+"natural_language_prompt": "On the BNB/USDC:USDC 30-minute chart, enter a long position after 10 red candles. Set a take profit at 2.5% and a stop loss above the 10-candle high. We're going for a fixed trade size of $550."
+
+"natural_language_prompt": "We're on the LINK/USDC:USDC 60-minute chart, and we're going to enter a short position after 7 consecutive green candles with a stop loss above the 7-candle high. Set a take profit at 5% and risk 1% of a $4500 capital."
+
+"natural_language_prompt": "For ADA/USDC:USDC on a 15-minute timeframe, go short after 5 strong consecutive green candles. We will take profit at 5% and add a stop loss 1.5 ATR (14) below the entry. The position size should only risk 1% of a $5000 capital."
+
+"natural_language_prompt": "Make me a strategy for LINK/USDC:USDC on a 2-hour timeframe. I only want to short on a bearish engulfing bar if it's confirmed by a bearish MACD crossover. I will take profit at 5% and place the stop loss at the high point of the bar. Use a fixed trade size of $900."
+
+"natural_language_prompt": "On the BTC/USDC:USDC 30-minute chart, enter a long position after 10 consecutive red candles. Set a stop loss below the recent swing low and take profit at 4%. The position size should risk 1% of the starting $100 capital."
+
+"natural_language_prompt": "For LINK/USDC:USDC on a 60-minute chart, go short after 5 green candles. Take profit is 0.5% from entry. Position size should risk 3% of a $1000 capital per trade. The stop loss is below the low of the 5-candle sequence."
+
+"natural_language_prompt": "Design a strategy for SOL/USDC:USDC on a 2-hour chart. Go long on a bullish engulfing bar and short on a bearish engulfing bar, note that the take profit is 4%, and the stop loss is at the high/low of the bar. Risk 5% of a $1500 capital base per trade."
+
+"natural_language_prompt": "I need a $1000 trade size strategy for BTC/USDC:USDC on a 2-hour timeframe. It should long after 5 bearish candles with a 4.5% take profit and a stop loss below the 5-candle low."
+
+"natural_language_prompt": "On the UNI/USDC:USDC 15-minute chart, enter a short position on a bearish engulfing bar. Position size should risk 10% of a $1100 capital. Set a take profit at 2.5% and the stop loss at the high of the bar."
+
+"natural_language_prompt": "Create a strategy for ETH/USDC:USDC on the 4-hour chart that will long on a bullish engulfing candle and short on a bearish engulfing candle. Set a take profit at 2.2% and a stop loss at the triggering high/low. Use a fixed trade size of $1050."
+
+"natural_language_prompt": "Give me a London opening range breakout strategy. The trade size is a fixed $1500 for ETH/USDC:USDC on a 5-minute chart. Use the range of the first 5-minute candle and go long on a close above, short on a close below. Use a 2% take profit and stop loss."
+
+"natural_language_prompt": "We're trading XLM/USDC:USDC on a 30-minute timeframe, and you have to go long after 5 down candles. The take profit is 3% from entry, and the stop loss is below the 5-candle low. The trade size is a fixed $3000."
+
+"natural_language_prompt": "We're going to trade UNI/USDC:USDC on a 2-hour timeframe, enter a long position after 7 bearish candles on the go. Risk 1% of a $3500 capital base. Set a 4% take profit and a stop loss 1.3 ATR below the entry."
+
+"natural_language_prompt": "For ETH/USDC:USDC on a 3-minute chart, go long after 15 down candles. The stop loss is below the low of the 10-candle sequence. Take profit is 1.6% from entry. Position size should risk 1% of a $1200 capital per trade."
