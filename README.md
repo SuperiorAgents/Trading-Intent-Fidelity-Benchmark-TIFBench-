@@ -1,4 +1,4 @@
-# Trading Intent Fidelity Benchmark (TIFbench)
+# Trading Intention Accuracy Benchmark
 
 An automated evaluation tool that uses multiple leading AI models to critique and validate trading strategy implementations against natural language requirements.
 
