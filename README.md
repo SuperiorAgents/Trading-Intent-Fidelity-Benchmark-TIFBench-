@@ -25,8 +25,8 @@ The critics analyze:
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/SuperiorAgents/Trading-Intent-Fidelity-Benchmark-TIFBench-.git
-cd Trading-Intent-Fidelity-Benchmark-TIFBench-
+git clone https://github.com/SuperiorAgents/Trading-Intention-Accuracy-Benchmark.git
+cd Trading-Intention-Accuracy-Benchmark.git
 
 # 2. Create and activate a Python virtual environment
 python3.12 -m venv .venv
